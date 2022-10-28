@@ -1,13 +1,13 @@
 <manifest>
-  <remote name="github" fetch="https://github.com/" />
+  <remote name="github" fetch="https://github.com/kinaraembedded/" />
 
-  <default remote="github" revision="master" />
+  <default remote="github" revision="kinaraembedded_v1" />
 
-  <project name="sifive/freedom-u-sdk" path="freedom-u-sdk" revision="beedaa10bf143904ca3ec5721086b4d22513c98b" />
-  <project name="sifive/meta-sifive" path="meta-sifive" revision="07141b482eae20bc13202ff27c59b4dad748bb14" />
-  <project name="riscv/meta-riscv" path="meta-riscv" revision="96b34d09763126b337df363e091d364ebb140bef" />
-  <project name="openembedded/openembedded-core" path="openembedded-core" revision="b3114d5d438b7a63a276b4e825b62f3b1ebceed6" />
-  <project name="openembedded/bitbake" path="openembedded-core/bitbake" revision="41eeb4f34fb2306303f7688ec5e0ae965a573aa4" />
-  <project name="openembedded/meta-openembedded" path="meta-openembedded" revision="1888971b1fcff1e86be175c2aac724c28d2840ca" />
-  <project name="kraj/meta-clang" path="meta-clang" revision="d748f542e27d58fcbcee9d1482d71cd9c38bf06b" />
+  <project name="freedom-u-sdk" path="freedom-u-sdk" />
+  <project name="meta-sifive" path="meta-sifive" />
+  <project name="meta-riscv" path="meta-riscv" />
+  <project name="openembedded-core" path="openembedded-core" />
+  <project name="bitbake" path="openembedded-core/bitbake" />
+  <project name="meta-openembedded" path="meta-openembedded" />
+  <project name="meta-clang" path="meta-clang" />
 </manifest>
