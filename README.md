@@ -32,7 +32,7 @@ Detailed instructions for various distributions can be found in "[Required Packa
 This needs to be done every time you want a clean setup based on the latest layers.
 
 ```bash
-mkdir riscv-sifive && cd riscv-sifive
+mkdir riscv-sifive && cd riscv-sifive 
 repo init -u https://github.com/kinaraembedded/riscv-embedded -b kinaraembedded_v1  -m tools/manifests/sifive.xml
 repo sync
 ```
